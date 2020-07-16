@@ -11,6 +11,8 @@
 $ git clone https://github.com/natorjunior/computer_vision_response_exercises.git
 #Entre no diretório 
 $ cd computer_vision_response_exercises/
+#download dos pesos da rede
+$ sudo python3 down_data.py
 #Faça o build do Dockerfile
 $ docker build -t jupyter_notebook:latest .
 #Faça a execução do container 

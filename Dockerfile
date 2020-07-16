@@ -7,4 +7,3 @@ RUN pip install Werkzeug
 RUN pip install matplotlib
 RUN pip install opencv-contrib-python
 RUN pip install tensorflow
-RUN python down_data.py
