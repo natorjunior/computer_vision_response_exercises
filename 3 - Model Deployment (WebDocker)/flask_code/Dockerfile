@@ -4,6 +4,5 @@ WORKDIR /code
 RUN pip install -r requirements.txt
 RUN apt-get update
 RUN apt-get install nano
-RUN apt-get install vi
 ENTRYPOINT ["python"]
 CMD ["app.py"]
