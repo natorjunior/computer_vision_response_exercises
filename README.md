@@ -110,11 +110,11 @@ Description Solutions
 O algoritmo usa o grabcut do opencv para realizar a retirada do background da imagem, para pegar a área de interesse é ultilizada uma rede de detecção de objetos, a YOLOV3, a mesma seleciona o primeiro objeto que ela achar na imagem e retorna o boundbox, que é passado para a função grabcut do opencv que realizará o processamento e retornará a imagem processada. 
 #### Exemplos de execução 
 - via browser
-    - <img src="img/result_browser.PNG" width=320>
-    - <img src="img/result_browser2.PNG" width=320>
+    - <img src="3%20-%20Model%20Deployment%20(WebDocker)/img/result_browser.PNG" width=320>
+    - <img src="3%20-%20Model%20Deployment%20(WebDocker)/img/result_browser2.PNG" width=320>
 - via Postman
-    - <img src="img/result_postman.PNG" width=320>
-    - <img src="img/result_postman2.PNG" width=320>
+    - <img src="3%20-%20Model%20Deployment%20(WebDocker)/img/result_postman.PNG" width=320>
+    - <img src="i3%20-%20Model%20Deployment%20(WebDocker)/mg/result_postman2.PNG" width=320>
 
 ###### Usando o docker:
 ```bash
