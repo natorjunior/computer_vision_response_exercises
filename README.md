@@ -5,6 +5,18 @@
 * 3 - [Model Deployment (Web/Docker)](#3\)-Model-Deployment-\(Web/Docker\))
 * 4 - [Object detection com deep learning](#4\)-Object-detection-com-deep-learning)
 * 5 - [Context segmentation com deep learning (Avançado)](#5\)-Context-segmentation-com-deep-learning-\(Avançado\))
+###### Criando o ambiente de execução do jupyter-notebook:
+```bash
+#faça o clone do repositório.
+$ git clone https://github.com/natorjunior/computer_vision_response_exercises.git
+#Entre no diretório 
+$ cd computer_vision_response_exercises/
+#Faça o build do Dockerfile
+$ docker build -t jupyter_notebook:latest .
+#Faça a execução do container 
+$ docker run -d -p 8888:8888 web_aplication_flask:latest
+```
+
 
 ## 1\) Optical flow e tracking
 Selecionar uma área de um video e realizar o tracking utilizando Optical Flow. Desenhe o vetor resultante entre as localizações das features.
