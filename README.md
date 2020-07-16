@@ -114,7 +114,7 @@ O algoritmo usa o grabcut do opencv para realizar a retirada do background da im
     - <img src="3%20-%20Model%20Deployment%20(WebDocker)/img/result_browser2.PNG" width=320>
 - via Postman
     - <img src="3%20-%20Model%20Deployment%20(WebDocker)/img/result_postman.PNG" width=320>
-    - <img src="i3%20-%20Model%20Deployment%20(WebDocker)/img/result_postman2.PNG" width=320>
+    - <img src="3%20-%20Model%20Deployment%20(WebDocker)/img/result_postman2.PNG" width=320>
 
 ###### Usando o docker:
 ```bash
