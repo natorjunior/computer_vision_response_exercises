@@ -14,7 +14,7 @@ $ cd computer_vision_response_exercises/
 #Faça o build do Dockerfile
 $ docker build -t jupyter_notebook:latest .
 #Faça a execução do container 
-$ docker run -d -p 8888:8888 web_aplication_flask:latest
+$ docker run -d -p 8888:8888 jupyter_notebook:latest
 ```
 
 
