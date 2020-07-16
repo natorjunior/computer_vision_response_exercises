@@ -14,7 +14,8 @@ $ cd computer_vision_response_exercises/
 #Faça o build do Dockerfile
 $ docker build -t jupyter_notebook:latest .
 #Faça a execução do container 
-$ docker run -d -p 8888:8888 jupyter_notebook:latest
+$ sudo docker run -d -p 8888:8888 jupyter_notebook:latest start-notebook.sh --NotebookApp.password='sha1:6bb06d2924c1:4490d0a5723260a0e7190dc4864781031d432e68'
+ #acesse localhost:8888 e insira a senha "root" 
 ```
 
 
