@@ -6,6 +6,5 @@ RUN pip install notebook
 RUN apt-get update
 RUN apt-get install nano
 RUN python3 down_data.py
-
-ENTRYPOINT ["python"]
-CMD ["jupyter-notebook"]
+ENTRYPOINT ["jupyter-notebook"]
+CMD ["--no-browser"]
