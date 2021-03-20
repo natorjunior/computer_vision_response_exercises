@@ -10,7 +10,7 @@ defusedxml==0.6.0
 entrypoints==0.3
 Flask==1.1.2
 itsdangerous==1.1.0
-Jinja2==2.11.2
+Jinja2==2.11.3
 jsonschema==3.2.0
 jupyter-core==4.6.3
 kiwisolver==1.2.0
